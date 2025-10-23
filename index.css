@@ -45,3 +45,25 @@ body{
     color: #4D5562;
     font-weight: 500;
 }
+
+/* Responsive design*/
+
+@media(max-width: 600px){
+    .title{
+        font-size: 22px;
+    }
+
+    .article1, .article2, .article3{
+        width: 100%;
+    }
+
+    .topic{
+        font-size: 18px;
+    }
+
+    .date{
+        font-size: 12px;
+    }
+}
+
+
